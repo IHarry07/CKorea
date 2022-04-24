@@ -1,0 +1,42 @@
+#include <stdio.h>                 // std : standard 의 줄임말 , io: input & output 의 줄임말
+
+void main6() {
+	 // 연산 == 계산
+	 // 연산자 == 계산을 위한 기호
+	 
+	 // +, -, *, /,
+	 // 더하기 : +
+	 // 빼기 : - 
+	 // 곱하기 : * 
+   	 // 나누기 : /
+	 
+	int num1, num2;          // 변수 2개 선언 (생성)
+	num1 = 1, num2 = 2;      // 대입 
+	num1 = num2;             // 왼쪽에 있는 num1이라는 저장공간(변수)에 num2의 값을 넣어줘
+	num1 = num1;             // 왼쪽은 공간, 오른쪽은 값
+	
+	num1 = 1;
+	num2 = 2;
+	int sum = num1 + num2;
+
+	int sub = num2 - num1;
+	
+	int mul = num1 * num2;
+	
+	float div = (float)num1 / num2;
+
+	int ampersand = num1 % num2;            // num1을 num2로 나눈
+
+	printf("%d\n", sum); 
+	printf("%d\n", sub);
+	printf("%d\n", mul); 
+	printf("%.1f\n", div);
+	printf("%d", ampersand);
+
+	
+
+
+
+
+
+}
