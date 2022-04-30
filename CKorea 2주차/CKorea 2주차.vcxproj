@@ -1,4 +1,4 @@
-<?xml version="1.0" encoding="utf-8"?>
+﻿<?xml version="1.0" encoding="utf-8"?>
 <Project DefaultTargets="Build" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
   <ItemGroup Label="ProjectConfigurations">
     <ProjectConfiguration Include="Debug|Win32">
@@ -18,13 +18,21 @@
       <Platform>x64</Platform>
     </ProjectConfiguration>
   </ItemGroup>
+  <ItemGroup>
+    <ClCompile Include="CProject13.c" />
+    <ClCompile Include="CProject14.c" />
+    <ClCompile Include="CProject15.c" />
+    <ClCompile Include="CProject16.c" />
+    <ClCompile Include="CProject17.c" />
+    <ClCompile Include="CProject18.c" />
+    <ClCompile Include="CProject19.c" />
+  </ItemGroup>
   <PropertyGroup Label="Globals">
     <VCProjectVersion>16.0</VCProjectVersion>
     <Keyword>Win32Proj</Keyword>
-    <ProjectGuid>{2284d25f-8d57-4e06-ad31-8ba60c395bd1}</ProjectGuid>
-    <RootNamespace>CKorea</RootNamespace>
+    <ProjectGuid>{50a409c4-acb5-4814-aac8-dbff9d220b7e}</ProjectGuid>
+    <RootNamespace>CKorea2주차</RootNamespace>
     <WindowsTargetPlatformVersion>10.0</WindowsTargetPlatformVersion>
-    <ProjectName>CKorea 1주차</ProjectName>
   </PropertyGroup>
   <Import Project="$(VCTargetsPath)\Microsoft.Cpp.Default.props" />
   <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'" Label="Configuration">
@@ -139,20 +147,6 @@
       <GenerateDebugInformation>true</GenerateDebugInformation>
     </Link>
   </ItemDefinitionGroup>
-  <ItemGroup>
-    <ClCompile Include="CProject01.c" />
-    <ClCompile Include="CProject02.c" />
-    <ClCompile Include="CProject03.c" />
-    <ClCompile Include="CProject04.c" />
-    <ClCompile Include="CProject05.c" />
-    <ClCompile Include="CProject06.c" />
-    <ClCompile Include="CProject07.c" />
-    <ClCompile Include="CProject08.c" />
-    <ClCompile Include="CProject09.c" />
-    <ClCompile Include="Cproject10.c" />
-    <ClCompile Include="CProject11.c" />
-    <ClCompile Include="CProject12.c" />
-  </ItemGroup>
   <Import Project="$(VCTargetsPath)\Microsoft.Cpp.targets" />
   <ImportGroup Label="ExtensionTargets">
   </ImportGroup>
