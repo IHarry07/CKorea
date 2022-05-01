@@ -24,6 +24,8 @@
 #define IDC_NUM9                        1008
 #define IDC_PLUS                        1009
 #define IDC_MINEOUS                     1010
+#define IDC_MINOUS                      1010
+#define IDC_MINUS                       1010
 #define IDC_MUL                         1011
 #define IDC_NUM0                        1012
 #define IDC_CAL                         1013
