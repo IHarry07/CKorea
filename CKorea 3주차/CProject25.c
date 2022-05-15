@@ -27,7 +27,7 @@ int 함수2(char var1, char var2) {
 		return 3.141592f;
 	}
 
-	int main() {
+	int main25() {
 	함수1(34);
 
 	return 0;
