@@ -3,17 +3,13 @@
 // 넘겨줄땐()
 // 결과를 받을땐 return
 
-//int Print(int var ,int var2) {
-//
-//	return var + var2;
-//}
 
 // Sum 함수 인자는 2개, 리턴값은 두개를 더한값으로
 int Sum(int var, int var1) {
 	return var + var1;
 }
 
-int main(){
+int main24(){
 	int result1 = Sum(10,20);
 	printf("%d\n", result1);
 	return result1;
