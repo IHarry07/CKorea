@@ -6,7 +6,7 @@ void myPow(int* num) {
 
 }
 
-int main(){
+int main32(){
 	int num = 3;
 	int* pNum = &num;
 	myPow(pNum);
